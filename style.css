@@ -445,7 +445,7 @@ iframe{
     
 }
 .footer .container .row .col{
-    text-align: center;
+    text-align: left;
     color: white;
 }
 .footer .container .row .col h4{
@@ -456,8 +456,13 @@ iframe{
 .footer .container .row .col p{
     text-align: left;
 }
-.footer .container .row .col i{
+.footer .container .row .col .fas{
     padding-bottom: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+.footer .container .row .col .li{
+    margin-left: 20px;
 }
 .footer .container .row .col ul {
     list-style: none;
