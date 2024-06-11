@@ -483,3 +483,62 @@ iframe{
     text-align: center;
     color: white;
 } 
+.section10{
+    background: rgba(252, 216, 166, 0.726);
+    padding-bottom: 30px;
+}
+
+.section10 .container h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(86, 4, 4);
+}
+.section10 .container .row{
+    display: flex; 
+    justify-content: space-between ;
+}
+.section10 .container form{
+    display: grid;
+    justify-content:;
+    line-height: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    width: 50%;
+}
+.section10 .container form textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+.section10 .container form select{
+    height: 40px;
+    width: 100%;
+}
+.section10 .container form button{
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    background: rgba(79, 0, 29, 0.964);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.section10 .container .row .col{
+     margin-top: 50px;
+     background: rgb(253, 209, 189);
+     margin-bottom: 70px;
+     padding-top: 10px;
+     border-radius: 4px;
+}
+.section10 .container .row .col h4{
+    background: rgb(255, 140, 98);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section10 .container .row .col iframe{
+    width: 100%;
+   
+}
