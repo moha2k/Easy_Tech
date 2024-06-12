@@ -497,6 +497,13 @@ iframe{
     display: flex; 
     justify-content: space-between ;
 }
+@media (max-width:991px) {
+    .section10 .container .row{
+        flex-direction: column;
+
+    }
+    
+}
 .section10 .container form{
     display: grid;
     justify-content:;
