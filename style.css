@@ -495,22 +495,23 @@ iframe{
 }
 .section10 .container .row{
     display: flex; 
-    justify-content: space-between ;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 @media (max-width:991px) {
-    .section10 .container .row{
-        flex-direction: column;
+    .section10 .container .row .col{
+        flex-basis: 100%;
+        align-items: center;
 
     }
     
 }
 .section10 .container form{
     display: grid;
-    justify-content:;
     line-height: 30px;
     padding-top: 20px;
     font-weight: bold;
-    width: 50%;
+    width: 100%;
 }
 .section10 .container form textarea{
     margin-top: 10px;
@@ -542,8 +543,11 @@ iframe{
     color: black;
     border-radius: 10px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .section10 .container .row .col iframe{
     width: 100%;
