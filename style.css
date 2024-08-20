@@ -84,6 +84,7 @@ iframe{
 }
 .section .container .row .col image{
     background: transparent;
+    padding-top:20px;
 }
 .section .container .row .col h2{
     color: bisque;
