@@ -7,8 +7,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 2px solid rgba(255, 68, 0, 0.624);
-    position: sticky;
-    top: 0;
+    position: fixed;
     z-index: 10;
     
 
