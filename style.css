@@ -437,7 +437,7 @@ iframe{
 }
 @media (max-width:991px) {
     .footer .container .row .col{
-        flex-basis: 50%;
+        flex-basis: 100%;
         flex-wrap: wrap;
     }
     
