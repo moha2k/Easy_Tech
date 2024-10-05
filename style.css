@@ -104,6 +104,8 @@ iframe{
 }
 .section1{
     background: rgb(249, 213, 191);
+    padding-top:20px;
+    padding-bottom:30px;
 }
 .section1 .container{}
 .section1 .container .row{
